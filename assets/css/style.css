@@ -129,4 +129,29 @@ body{
 .rightside-second-section-img{
     padding: 68px 138px 67px 0;
 }
+.third-section{
+    width: 1320px;
+    height: 482px;
+    margin: 120px auto;
+    background-image: linear-gradient(rgba(255, 0, 0, 0.1),white);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.third-section-h3{
+    font-size: 32px;
+    font-weight: 700;
+}
+.btn{
+    margin-top: 48px;
+    background-color: #FF0000;
+    color: white;
+    width: 167px;
+    height: 56px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 20;
+}
 /* main styles end */
