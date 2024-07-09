@@ -12,14 +12,16 @@ body{
 }
 /* body tag ends */
 /* common styles starts*/
-
+.tomato{
+    color: #FF0000;
+}
 /* common styles ends */
 /* header styles starts*/
 .banner-container{
-    width: 1320px;
+    max-width: 1320px;
     height: 600px;
     margin: 50px 140px 0;
-    background-image: url('../img/images/Banner\ Image.png');
+    background-image: url('../img/images/BannerImage.png');
     background-color: rgba(0,0,0,0.5);
     background-blend-mode: overlay;
     /* background-repeat: no-repeat;
@@ -48,3 +50,38 @@ body{
     text-align: center;
 }
 /* header ends */
+/* main styles start */
+.first-section{
+    max-width: 800px;
+    min-height: 800px;
+    margin: 120px auto 0;
+}
+.first-section-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.first-section-title h1{
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+.first-section-title p{
+    font-size: 24px;
+    font-weight: medium;
+    margin-bottom: 16px;
+}
+.first-section-title h4{
+    font-size: 48px;
+    font-weight: 700;
+}
+.first-section-container{
+    margin-top: 48px;
+    width: 800px;
+    height: 500px;
+}
+.first-section-img{
+    width: 100%;
+    height: 100%;
+}
+/* main styles end */
