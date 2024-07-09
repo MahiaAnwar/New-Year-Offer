@@ -154,4 +154,71 @@ body{
     font-weight: 700;
     font-size: 20;
 }
+.fourth-section{
+    width: 1320px;
+    height: 463px;
+    margin: 0 auto;
+    display: flex;
+}
+.fourth-section-left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 70px;
+}
+.fourth-section-left-h4{
+    margin-bottom: 16px;
+    font-size: 24px;
+    font-weight: 600;
+}
+.fourth-section-left-h1{
+    margin-bottom: 22px;
+    font-size: 48px;
+    font-weight: 900;
+}
+.fourth-section-left-p{
+    font-size: 20px;
+}
+.fourth-section-middle{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fourth-section-middle-circle{
+   width: 463px;
+   height: 463px;
+   border-radius: 100%;
+   border: 15px solid #FF0000;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+} 
+.fourth-section-middle-circle-img{
+    width: 90%;
+    height: 90%;
+}
+.fourth-section-right{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 118px;
+}
+.fourth-section-right-h1{
+    font-size: 48px;
+    font-weight: bold;
+}
+.fourth-section-right-p{
+    font-size: 20px;
+    color: #070211;
+}
+.fourth-section-right-img{
+    width: 140px;
+    height: 140px;
+}
 /* main styles end */
